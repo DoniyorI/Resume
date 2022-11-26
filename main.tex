@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Doniyor Ismatilloev} \\ \vspace{1pt}
+    \small (917) 362-5432 $|$ \href{mailto:x@x.com}{\underline{doniyori@buffalo.edu}} $|$ 
+    \href{https://www.linkedin.com/in/doniyor2024/}{\underline{linkedin.com/doniyor2024}} $|$
+    \href{https://github.com/Doniyori}{\underline{github.com/Doniyori}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University at Buffalo}{Buffalo, NY}
+      {Bachelor of Science in Computer Science}{Expected Graduation Dec 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {UFO Logistics LLC}{July 2020 -- August 2021}
+      {Safety-Manger/Accounting}{Remote}
+      \resumeItemListStart
+        \resumeItem{Approved payroll and benefits administration for 10 employees deploying with Microsoft Excel}
+        \resumeItem{Processed payments excess of \$20,000 weekly and without going over budget}
+        \resumeItem{Fashioned and Analyzed Quarterly IFTA Taxes Reports and Submitted in a timely manner}
+        \resumeItem{Handled training and development efforts for new hires of over 8 people}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {The Medicine Chest Brooklyn NY, 11230}{Nov. 2019 -- Jun 2021}
+      {Cashier}{Brooklyn, NY}
+      \resumeItemListStart
+        \resumeItem{Processed Hundreds of transactions a day swift and effectively  for best customer experiences}
+        \resumeItem{Collaborated with Co-Workers to build schedules fitting everyone needs weekly}
+        \resumeItem{Advised 20+ customers a day in acquiring specific items and recommended Alternatives Products}
+        \resumeItem{Maintained cleanliness and order of checkout areas and lanes hourly ensuring customer satisfaction}
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+    %     \resumeItem{Developed a game in Java to test the generated dungeons}
+    %     \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+    %     \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+    %     \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+    %     \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Tranform (UB Hacking Winner)} $|$ \emph{React, Django, Typescript, Python,}}{November  2022}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack application (React, Django) that uses large language models as educational tutors}
+            \resumeItem{Built and deployed RESTful API endpoints to ensure project scalability and data persistence capability}
+            \resumeItem{ Leveraged the embedding of a neural network (resnet50), and a text-image model (DALLE-2) to create an automated drawing challenge}
+            \resumeItem{Placed 1st in UB Hacking Machine Learning/Artificial Intelligence Category}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{CDC Covid-19 Graph} $|$ \emph{Python, HTML, JavaScript, Ajax, Bottle Route, Plot.ly, CSV Files}}{December 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a Full-Stack application to take the information from the CDC website and display them on graphs}
+            \resumeItem{Built pie charts and graphs of the Fully vaccinated percentage per state and the percentage of which Vaccine used with Plot.ly}
+            \resumeItem{Communicated with the front and back end using JSON dumps and loads}
+            \resumeItem{The web application runs on a bottle server that uses AJAX to fetch the necessary data}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Self-Checkout GUI} $|$ \emph{Scala}}{March 2021}
+          \resumeItemListStart
+            \resumeItem{Application deployed with Scala utilizes object-oriented programming to ensure the intended functionality}
+            \resumeItem{Self Checkout Machine that takes in a barcode and gives the price of an item associated with a barcode}
+            \resumeItem{Provided customers with a subtotal, tax, and total of scanned items with the ability to use a loyalty card}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Dynamic Memory  Allocation} $|$ \emph{C}}{November  2022}
+          \resumeItemListStart
+            \resumeItem{Designed a Dynamic Memory Allocation Equivalent to malloc, calloc, realloc, and free in the UNIX Terminal}
+            \resumeItem{Deployed in C recreating a dynamic memory allocator using a pool allocation system stored on the heap}
+            \resumeItem{Stored the size of the block of memory in a block header so the user would be able to free the correct size}
+            \resumeItem{Application was able to duplicate the abilities of the malloc, calloc, realloc, and free running commands on Linux Terminal}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Scala, C, Java, Node.js} \\
+     \textbf{Web Development}{: HTML, CSS, JavaScript, TypeScript} \\
+     \textbf{Frameworks}{: React, Bootstrap Tailwind CSS, Bottle Web Framework, Django} \\
+     \textbf{Developer Tools}{: Emacs, Git, VS Code, IntelliJ, CLion, Microsoft Excel} \\
+     \textbf{}{}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
