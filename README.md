@@ -1,3 +1,3 @@
 Resume created with LaTeX
 
-![alt text](https://github.com/DoniyorI/Resume/blob/resume.jpg?raw=true)
+![Resume](https://github.com/DoniyorI/Resume/blob/main/resume.jpg?raw=true)
